@@ -1,0 +1,390 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(187, 168, 168); */
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sec-1 {
+  background-image: url(images/drew-coffman-1872.jpg);
+  height: 100vh;
+  background-size: cover;
+  overflow: auto;
+}
+.clear {
+  clear: both;
+}
+
+.parent-1 {
+  width: 80%;
+  /* background-color: rgb(51, 228, 169); */
+  margin: auto;
+  margin-top: 18px;
+}
+
+.parent-1 .chi1d-1 {
+  float: left;
+  width: 15%;
+  /* background-color: rgb(115, 176, 53); */
+}
+
+.parent-1 .chi1d-1 .logo-1 {
+  width: 100%;
+}
+
+.parent-1 .chi1d-2 {
+  float: right;
+  /* background-color: rgb(222, 255, 6); */
+  width: 45%;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 5px;
+}
+
+.parent-1 .chi1d-2 .a {
+  text-decoration: none;
+  height: 50px;
+  font-size: 17px;
+  padding: 0px 17px;
+  color: rgb(255, 255, 255, 0.9);
+}
+
+.parent-2 {
+  text-align: center;
+  width: 48%;
+  margin: auto;
+  margin-top: 110px;
+  /* background-color: tomato; */
+  overflow: auto;
+}
+
+.parent-2 .Welcome {
+  color: rgb(255, 255, 255, 0.9);
+  font-size: 22px;
+  /* background-color: aquamarine; */
+  margin-top: 60px;
+}
+
+.parent-2 .Title {
+  font-size: 76px;
+  color: rgb(255, 255, 255, 0.9);
+  margin: 5px;
+  /* background-color: teal; */
+}
+
+.parent-2 .Text {
+  font-size: 24px;
+  line-height: 45px;
+  color: rgb(255, 255, 255, 0.9);
+  /* background-color: aqua; */
+}
+
+.parent-2 button {
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background: none;
+  border: 2px solid;
+  margin-left: 10px;
+}
+
+.sec-2 {
+  /* background-color: rgb(179, 31, 31); */
+  margin-top: 70px;
+}
+
+.sec-2 .parent-3 {
+  width: 85%;
+  /* background-color: aqua; */
+  margin: auto;
+}
+
+.sec-2 .parent-3 .child-3 {
+  /* background-color: blueviolet; */
+  width: 46%;
+  float: left;
+}
+
+.sec-2 .parent-3 .child-3 img {
+  width: 100%;
+}
+.sec-2 .child-4 {
+  width: 48%;
+  float: right;
+  /* background-color: blue; */
+  margin-top: 30px;
+}
+
+.sec-2 .parent-3 .child-4 .subtitle {
+  font-size: 32px;
+  line-height: 44px;
+  color: rgb(48, 48, 48);
+}
+
+.sec-2 .parent-3 .child-4 .Paragraph {
+  font-size: 17px;
+  line-height: 32px;
+  color: rgb(104, 104, 104);
+}
+
+.sec-2 .child-4 .item {
+  width: 100%;
+  /* background-color: azure; */
+}
+
+.sec-2 .child-4 .item img {
+  width: 42px;
+  vertical-align: middle;
+  border: 1px solid rgb(48, 48, 48, 0.5);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.sec-2 .child-4 .item .item-text {
+  display: inline-block;
+  font-size: 17px;
+  line-height: 32px;
+  color: rgb(104, 104, 104);
+}
+
+.sec-3 {
+  background-color: rgb(248, 248, 248);
+  margin-top: 100px;
+  padding: 100px 0px;
+}
+
+.sec-3 .parent-4 {
+  /* background-color: blue; */
+  width: 85%;
+  margin: auto;
+}
+
+.sec-3 .parent-4 .child-5 {
+  /* background-color: chartreuse; */
+  float: left;
+  width: 45%;
+  margin-top: 80px;
+}
+
+.sec-3 .parent-4 .child-5 .subtitle-2 {
+  font-size: 32px;
+  line-height: 44px;
+  color: rgb(48, 48, 48);
+}
+
+.sec-3 .parent-4 .child-5 .Paragraph {
+  font-size: 17px;
+  line-height: 32px;
+  color: rgb(104, 104, 104);
+}
+
+.sec-3 .parent-4 .child-6 {
+  /* background-color: turquoise; */
+  width: 45%;
+  float: right;
+}
+
+.sec-3 .parent-4 .child-6 img {
+  width: 100%;
+}
+
+.sec-4 {
+  /* background-color: brown; */
+  margin-top: 100px;
+}
+
+.sec-4 .subtitle-3 {
+  font-size: 32px;
+  line-height: 40px;
+  color: rgb(48, 48, 48);
+  text-align: center;
+}
+
+.sec-4 .Paragraph {
+  font-size: 17px;
+  line-height: 32px;
+  color: rgb(136, 136, 136);
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.sec-4 .child-7 {
+  /* background-color: aquamarine; */
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+.sec-4 .child-7 .cookies {
+  float: left;
+  width: 30%;
+  margin-left: 40px;
+}
+
+.sec-4 .child-7 .cookies img {
+  width: 100%;
+}
+
+.sec-5 {
+  background-color: rgb(248, 248, 248);
+  padding-top: 100px;
+  padding: 100px 0px;
+}
+
+.sec-5 .us {
+  width: 85%;
+  margin: auto;
+}
+
+.sec-5 .contact-1 {
+  /* background-color: rgb(98, 98, 5); */
+  width: 43%;
+  float: left;
+}
+
+.sec-5 .contact-1 .subtitle-4 {
+  font-size: 32px;
+  line-height: 44px;
+  color: rgb(48, 48, 48);
+}
+
+.sec-5 .contact-1 .Paragraph {
+  font-size: 17px;
+  line-height: 32px;
+  color: rgb(104, 104, 104);
+}
+
+.sec-5 .contact-1 img {
+  width: 42px;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-right: 5px;
+  background-color: rgb(140, 140, 140);
+}
+
+.sec-5 .contact-1 .number .item-text {
+  display: inline-block;
+  font-size: 17px;
+  line-height: 32px;
+  color: rgb(104, 104, 104);
+}
+
+.sec-5 .contact-2 {
+  /* background-color: burlywood; */
+  width: 45%;
+  float: right;
+}
+
+.sec-5 .contact-2 iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+}
+
+.sec-6 {
+  background-color: rgb(64, 61, 56);
+  padding: 100px 0px;
+  margin: top 100px;
+}
+
+.sec-6 .foot-1 {
+  /* background-color: turquoise; */
+  width: 85%;
+  margin: auto;
+}
+
+.sec-6 .foot-1 .info {
+  width: 20%;
+  float: left;
+}
+
+.sec-6 .foot-1 .Paragraph {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgb(150, 150, 150);
+}
+
+.sec-6 .foot-1 .info .subtitle-5 {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.sec-6 .foot-1 .info img {
+  width: 15px;
+}
+
+.sec-6 .foot-1 .info-m {
+  width: 20%;
+  float: left;
+  margin-left: 80px;
+}
+
+.sec-6 .foot-1 .info-m .subtitle-5 {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.sec-6 .foot-1 .info-m span {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgb(150, 150, 150);
+}
+
+.sec-6 .foot-1 .info-m img {
+  width: 15px;
+}
+
+.sec-6 .foot-1 .info-m-bg {
+  width: 20%;
+  float: left;
+  margin-left: 80px;
+  background-image: url(images/contact-details-map.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.sec-6 .foot-1 .info-m-bg .subtitle-5 {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.sec-6 .foot-1 .info-m-bg span {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgb(150, 150, 150);
+}
+
+.sec-6 .foot-1 .info-m-bg img {
+  width: 15px;
+}
+
+.sec-7 {
+  background-color: rgb(53, 51, 48, 1);
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.sec-7 .logo-2 {
+  margin-bottom: 15px;
+}
+
+.sec-7 p {
+  font-size: 15px;
+  line-height: 28px;
+  color: rgb(119, 119, 119);
+}
+
+.sec-7 .social {
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(46, 42, 42);
+  cursor: pointer;
+  margin: 0px 5px;
+}
